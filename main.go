@@ -3,10 +3,11 @@ package main
 import "fmt"
 
 func main()  {
-	// komentar single line
-	fmt.Println("Hello World")
-	/*
-	komentar
-	multi line
-	*/
+	var firstname string = "Budi"
+	
+	var lastname string
+	lastname = "agus"
+	
+	fmt.Printf("halo %s %s!\n", firstname, lastname)
+
 }
