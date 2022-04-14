@@ -3,11 +3,12 @@ package main
 import "fmt"
 
 func main()  {
-	var firstname string = "Budi"
+	// dengan var
+	var firstname = "Budi"
 	
-	var lastname string
-	lastname = "agus"
-	
+	// tanpa var
+	lastname := "agus"
+
 	fmt.Printf("halo %s %s!\n", firstname, lastname)
 
 }
